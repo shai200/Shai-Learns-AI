@@ -1,0 +1,64 @@
+Welcome back to your daily FAANG prep party from Shai-Learns-AI! 🎉
+ Today’s question comes straight from Google and originally appeared in an awesome email series called The Daily Byte — made by a Staff Engineer at Instagram (so yeah, it's legit).
+Here’s the challenge:
+ 👉 Reverse all the characters in a string and return the result.
+ Sounds easy, right? Like... how hard can it be to flip some letters?
+Let’s see a few examples:
+Example 1: "Cat" → "taC" (meow turned wow)
+ Example 2: "The Daily Byte" → "etyB yliaD ehT"
+ Example 3: "civic" → "civic" (a palindrome flex 😎)
+It might look simple, but don’t let this one fool you — this is where clean thinking and quick coding shine.
+🧠 Before we dive into the code, fire up your favorite IDE —
+ Maybe it’s VSCode, IntelliJ IDEA, or even Jupyter Notebook if you're feeling scientific.
+🚨 Pause the video now.
+ Try solving it on your own — seriously, give it a shot.
+ Then hit play again and let’s compare notes. Like... did we both forget semicolons or nah?
+✋ Go ahead. I’ll wait. (cue dramatic Jeopardy music 🎵)
+
+Alright, let’s break it down — in FOUR languages.
+
+Python (a.k.a. the cool kid who writes poetry):
+def reverse_string(s: str) -> str:
+    return s[::-1]
+
+Slicing like a ninja! One-liner magic — Python really said: “Hold my whitespace.”
+
+Java (because some of us like our code verbose and caffeinated):
+public class ReverseString {
+    public static String reverse(String s) {
+        return new StringBuilder(s).reverse().toString();
+    }
+}
+
+Java's like, "Why say it in 1 line when you can say it in 3?"
+ Still... gotta love that trusty StringBuilder.
+
+TypeScript (aka JavaScript with a type safety glow-up):
+function reverseString(s: string): string {
+    return s.split('').reverse().join('');
+}
+
+Split it. Flip it. Stick it back together.
+ Basically the sandwich method of reversing strings 🥪
+
+C++ (for when you like full control and STL wizardry):
+#include <algorithm>
+#include <string>
+using namespace std;
+
+string reverseString(string s) {
+    reverse(s.begin(), s.end());
+    return s;
+}
+
+C++ be like: “I got this.”
+ Just call reverse() from the standard library and call it a day. Efficient and elegant, just like your grandma's cooking 🥘
+
+And that’s a wrap!
+ Four languages. One problem. Endless ways to flex. 💪
+Did your solution match?
+ Drop it in the comments — or roast me for my semicolon jokes. Either way, I’m here for it.
+🎯 More FAANG-level questions are dropping daily like leetcode rain.
+ 👉 Smash that Like, Follow, and Subscribe button like you just passed a Google phone screen.
+See you in the next one — we’re just getting started. 🚀
+
